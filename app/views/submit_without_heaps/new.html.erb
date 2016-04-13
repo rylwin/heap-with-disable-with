@@ -1,0 +1,5 @@
+<h2>Submit without Heap</h2>
+
+<%= form_tag submit_without_heaps_path, method: :post do %>
+  <%= submit_tag "Submit", data: { disable_with: "Saving..." } %>
+<% end %>
