@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Start rails application, then visit the following pages to test using
+disable_with in a form both with and without the Heap tracker:
 
-Things you may want to cover:
+* http://localhost:3000/submit_without_heaps/new
+* http://localhost:3000/submit_with_heaps/new
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Note the different values displayed after submitting the form.
